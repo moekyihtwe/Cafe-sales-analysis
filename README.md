@@ -18,7 +18,7 @@ The cleaning process was specifically designed to impute missing values by lever
 
 2. Imputing Missing Item Values
    
-- Missing items were imputed based on known pricing for grouped items and their historical purchase percentages:
+- Missing items' values were imputed based on known pricing for grouped items and their historical purchase percentages:
 
 - Known Pricing:
 
