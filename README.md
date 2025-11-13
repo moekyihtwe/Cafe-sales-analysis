@@ -47,5 +47,5 @@ The cleaning process was specifically designed to impute missing values by lever
 Dashboard Summary:
 
 •	Financial Consistency: Sales are highly consistent across months (CV of 3.6%), indicating a stable business model with low volatility.
-![Coefficient Variation](images/coefficient.png)
+![Coefficient Variation](images/sales-by-location.png)
 
