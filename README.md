@@ -34,7 +34,7 @@ The cleaning process was specifically designed to impute missing values by lever
 
   49% of blank items were imputed as Cake.
 
-  Did the samw to the Sandwich and Smoothie.
+  Did the same to the Sandwich and Smoothie.
   
 
 3. Other Missing Value Handling
@@ -44,8 +44,45 @@ The cleaning process was specifically designed to impute missing values by lever
 
 5. Date: Missing date values were imputed using the upper cell's value (Forward Fill). This assumes that the missing date belongs to the same business day as the preceding transaction.
 
-Dashboard Summary:
+Café Sales Analysis Dashboard:
 
-•	Financial Consistency: Sales are highly consistent across months (CV of 3.6%), indicating a stable business model with low volatility.
+•	**Financial Consistency**: Sales are highly consistent across months (CV of 3.6%), indicating a stable business model with low volatility.
+The business model appears reliable from month to month, with little risk of extreme volatility.
+
 ![Coefficient Variation](images/coefficient)
+
+-	**Product Profitability**: The highest revenue is driven by meal items (Salad, Sandwich), indicating the shop is successful as a lunch destination, not just a coffee shop.
+Coffee sells the highest volume of units, confirming its importance as a staple item.
+
+![Total Revenue Item](images/total-revenue-item)
+
+- **Revenue Drivers (Day)**: The peak sales period is the late work week (Thursday and Friday). The business maintains very high and consistent revenue across almost every day of the week, with minimal drop-off, even on Wednesday (the   lowest day, 12447). The difference between the highest (Thu) and lowest (Wed) day is only about 4.4%.
+
+ ![Daily Total Revenue](images/daily-total-revenue)
+
+- **Preferred Payment Method**: Digital Wallet (2291 transactions) and Credit Card (2272 transactions) are almost equally popular and together account for the majority of transactions, surpassing Cash (2258).
+	Insight: The customer base is heavily reliant on digital/card payments. Ensuring these systems are always operational is critical.
+
+-	**Sales Channel**: Takeaway and In-store are an almost 50/50 split between dine-in and takeout. Any operational improvements should focus on optimizing the Takeaway process (order management, pick-up efficiency).
+  ![Payment Method](images/payment-method) ![Sales by Location](images/sales-by-location)
+
+  - **Peak Sales Months**: January and June are the highest sales months, with July showing a significant drop-off from the peak. It show a mid-year dip, possibly due to seasonality holiday or a specific event/promotion in Jan/Jun.
+
+    ![Monthly Total Revenue](images/monthly-total-revenue)
+
+
+**The core business is healthy, with high consistency and a strong base in meal-type items (Salad/Sandwich). The highest revenue occurs on Thu and Fri, but average performance is consistent, driven largely by Takeaway and digital payments.**
+
+![Sales Dashboard](images/sales-dashboard)
+
+
+
+
+  
+
+
+
+
+
+
 
