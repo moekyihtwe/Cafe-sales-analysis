@@ -44,7 +44,7 @@ The cleaning process was specifically designed to impute missing values by lever
 
 5. Date: Missing date values were imputed using the upper cell's value (Forward Fill). This assumes that the missing date belongs to the same business day as the preceding transaction.
 
-Café Sales Analysis Dashboard:
+**Café Sales Analysis Dashboard**:
 
 •	**Financial Consistency**: Sales are highly consistent across months (CV of 3.6%), indicating a stable business model with low volatility.
 The business model appears reliable from month to month, with little risk of extreme volatility.
