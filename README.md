@@ -1,4 +1,4 @@
-# Cafe-sales-analysis
+# Cafe-shop--sales-analysis
 This repository contains the excel analysis for the cafe sales data project. The primary goal was to process raw transaction data, handle various missing values using a combination of business logic and statistical proportionality, and derive meaningful insights into sales performance and product mix.
 
 🧹 Data Cleaning Methodology
